@@ -1,0 +1,22 @@
+.btn {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+button {
+    width: 100px;
+    margin: 5px;
+}
+
+.image-container {
+    width: 800px;
+    height: auto;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    object-fit: cover;
+}
